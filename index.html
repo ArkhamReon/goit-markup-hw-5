@@ -23,7 +23,7 @@
             <nav class="display-list">
                 <ul class="about list">
                     <li>
-                        <a href="" class="link">Studio</a>
+                        <a href="index.html" class="link active">Studio</a>
                     </li>
                     <li>
                         <a href="portfolio.html" class="link">Portfolio</a>
@@ -52,7 +52,17 @@
                 Effective Solution<br />
                 for Your Business
             </h1>
-            <button type="button" class="hero-btn">Order Service</button>
+            <button type="button" class="hero-btn" data-modal-open>Order Service</button>
+
+            <div class="backdrop is-hidden" data-modal>
+                <div class="modal">
+                     <button class="modal-close-btn" data-modal-close>X
+                        <!-- <svg width="18" heigth="18">
+                            <use href="./images/icons.svg#close"></use>
+                        </svg> -->
+                     </button>
+                </div> 
+            </div>
         </section>
         <!-- END OF HERO BANNER SECTION  -->
 
@@ -344,6 +354,10 @@
         
     </main>
 
+    <!-- END OF CUSTOMER SECTION  -->
+
+    <!-- FOOTER SECTION  -->
+
     <footer class="last-page">
 
     <div class="last-page-item">
@@ -388,8 +402,8 @@
       
     </div>
     </footer>
-       
-        
+    <script src="./js/modal.js"></script>
+        <!-- END OF FOOTER SECTION  -->
   
   
       
